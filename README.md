@@ -1,70 +1,40 @@
-# Getting Started with Create React App
+# Projeto Fire Agenda - (To-Do Listwith Firebase Authentication)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a **To-Do List** application built with **React** and **Firebase**. It allows users to create accounts, log in, and manage their tasks in a simple and effective way.
 
-## Available Scripts
+## **Features**
 
-In the project directory, you can run:
+- **User Registration:** Users can create an account with email and password using Firebase.
+- **Login and Logout:** Users can log in and log out of their accounts.
+- **Task Management:** Users can add, edit, and remove tasks.
+- **Protected Admin Page:** Access is restricted to authenticated users.
+- **Data Persistence:** Tasks are stored in **Firebase Firestore**, ensuring data is saved securely.
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## **Access the Project Online**
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+You can view the live project [here](https://github.com/HericaSilva/projeto-fire-agenda).
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## **Technologies Used**
 
-### `npm run build`
+- **React (JavaScript):** JavaScript library for building dynamic user interfaces.
+- **Firebase Authentication:** Manages user registration, login, and logout.
+- **Firebase Firestore:** Stores user tasks.
+- **React Router DOM:** Manages navigation between pages.
+- **useState and useEffect:** React hooks for managing state and side effects.
+- **CSS:** Used for styling the interface.
+- **JavaScript:** The core programming language used for all project logic, including Firebase interactions and state management.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
+## **Author**
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+This project was developed by **Herica Silva** as part of the **Fábrica de Aplicativos** course by **Sujeito Programador (https://sujeitoprogramador.com/fabricadeaplicativos/)**.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## **License
+This project is licensed under the MIT License - see the LICENSE file for details.
