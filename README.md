@@ -14,7 +14,8 @@ This is a **To-Do List** application built with **React** and **Firebase**. It a
 
 ## **Access the Project Online**
 
-You can view the live project [here](https://github.com/HericaSilva/projeto-fire-agenda).
+You can view the live project (https://projeto-fire-agenda.netlify.app/)
+The app is hosted using Netlify, which made the deployment process seamless and efficient.
 
 ---
 
